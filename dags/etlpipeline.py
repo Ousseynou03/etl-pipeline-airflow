@@ -32,7 +32,7 @@ with DAG(
         ## Execute the table creation query
         postgres_hook.run(create_table_query)
     ## Step 2: Extract the NASA API Data (APOD) - Astronomy Picture of the Day [Extract pipeline]
-
+    
 
     ## Step 3: Transform the data [Pick the information that i need to save]
 
